@@ -13,6 +13,7 @@ function About() {
           <img src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" className='rounded-lg' width={"100%"} />
           </div>
         </div>
+        ////dsaiusdak/////
         <div className='w-full h-screen'>
       <div style={{backgroundImage: `url("https://via.placeholder.com/500")`}}></div>
         </div>
