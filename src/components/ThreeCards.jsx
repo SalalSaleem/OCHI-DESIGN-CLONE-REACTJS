@@ -12,8 +12,37 @@ function ThreeCards() {
             <div className='bg-orange-700 w-1/2 h-full mx-5 h-[80%]'> </div>
             <div className='bg-purple-700 w-1/2 h-full h-[80%]'></div>
         </div>
+        ///// for push git only ////
+
+<div>
+
+  <h1>
+
+    <p>
+
+
+      <h1>
+
+
+        <kbd>
+
+
+          <h1>
+
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti id voluptatibus ab quaerat pariatur! Alias voluptates corporis libero reiciendis minima officia nemo, illum voluptatibus repudiandae doloribus nobis perferendis cum iste!</p>
+          </h1>
+        </kbd>
+      </h1>
+    </p>
+  </h1>
+</div>
+
     </div>
-  )
+   
+   
+   
+   )
 }
 
 export default ThreeCards
