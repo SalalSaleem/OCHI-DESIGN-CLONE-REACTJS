@@ -13,12 +13,23 @@ function ThreeCards() {
                 </div>
             </div>
         </div>
-        <div className='bg-zinc-400 w-1/2 flex items-center px-5'>
-            <div className='bg-orange-700 w-1/2 mx-5 h-[80%] rounded-lg'> 
-              <div className='bg-red-900 h-10 w-full'></div>
-              <div className='bg-green-900 h-10 w-full'></div>
+        <div className='w-1/2 flex items-center px-5'>
+            <div className='bg-[#212121] w-1/2 mx-5 h-[80%] rounded-lg'> 
+              <div className='flex justify-center items-center pt-10 h-[80%] w-full'>
+                <img className='h-[5vw]' src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
+              </div>
+              <div className='h-[20%] w-full'>
+                <p className='border-2 w-fit ml-5 px-1 rounded-xl'>Rating 5.0 on clutch</p>
+              </div>
             </div>
-            <div className='bg-purple-700 w-1/2 h-[80%] rounded-lg'></div>
+            <div className='bg-[#212121] w-1/2 h-[80%] rounded-lg'>
+            <div className='flex justify-center items-center pt-10 h-[80%] w-full'>
+                <img className='h-[5vw]' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
+              </div>
+              <div className='h-[20%] w-full'>
+                <p className='border-2 w-fit ml-5 px-1 rounded-xl'>Rating 5.0 on clutch</p>
+              </div>
+            </div>
         </div>
     </div>
    
