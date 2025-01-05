@@ -14,7 +14,10 @@ function ThreeCards() {
             </div>
         </div>
         <div className='bg-zinc-400 w-1/2 flex items-center px-5'>
-            <div className='bg-orange-700 w-1/2 mx-5 h-[80%] rounded-lg'> </div>
+            <div className='bg-orange-700 w-1/2 mx-5 h-[80%] rounded-lg'> 
+              <div className='bg-red-900 h-10 w-full'></div>
+              <div className='bg-green-900 h-10 w-full'></div>
+            </div>
             <div className='bg-purple-700 w-1/2 h-[80%] rounded-lg'></div>
         </div>
     </div>
