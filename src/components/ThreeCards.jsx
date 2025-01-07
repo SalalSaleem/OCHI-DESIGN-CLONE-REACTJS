@@ -14,6 +14,13 @@ function ThreeCards() {
             </div>
         </div>
         <div className='w-1/2 flex items-center px-5'>
+        <div>
+        <div>
+          <div>
+            <div><h1><h1><h1><p>fjsas</p></h1></h1></h1></div>
+          </div>
+        </div>
+        </div>
             <div className='bg-[#212121] w-1/2 mx-5 h-[80%] rounded-lg'> 
               <div className='flex justify-center items-center pt-10 h-[80%] w-full'>
                 <img className='h-[5vw]' src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
