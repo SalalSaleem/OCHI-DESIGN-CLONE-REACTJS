@@ -6,6 +6,7 @@ import About from './components/About'
 import Featured from './components/Featured'
 import LocomotiveScroll from 'locomotive-scroll';
 import ThreeCards from './components/ThreeCards'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ const locomotiveScroll = new LocomotiveScroll();
       <About/>
       <Featured/>
       <ThreeCards/>
+      <Footer/>
     </div>
   )
 }

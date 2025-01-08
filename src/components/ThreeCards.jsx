@@ -15,18 +15,13 @@ function ThreeCards() {
         </div>
         <div className='w-1/2 flex items-center px-5'>
         <div>
-        <div>
-          <div>
-            <div><h1><h1><h1><p>fjsas</p></h1></h1></h1></div>
-          </div>
-        </div>
         </div>
             <div className='bg-[#212121] w-1/2 mx-5 h-[80%] rounded-lg'> 
               <div className='flex justify-center items-center pt-10 h-[80%] w-full'>
                 <img className='h-[5vw]' src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
               </div>
               <div className='h-[20%] w-full'>
-                <p className='border-2 w-fit ml-5 px-1 rounded-xl'>Rating 5.0 on clutch</p>
+                <p className='border-2 uppercase text-[1vw] w-fit ml-5 px-3 rounded-xl'>Rating 5.0 on clutch</p>
               </div>
             </div>
             <div className='bg-[#212121] w-1/2 h-[80%] rounded-lg'>
@@ -34,7 +29,7 @@ function ThreeCards() {
                 <img className='h-[5vw]' src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
               </div>
               <div className='h-[20%] w-full'>
-                <p className='border-2 w-fit ml-5 px-1 rounded-xl'>Rating 5.0 on clutch</p>
+                <p className='border-2 w-fit text-[1vw] ml-5 px-3 rounded-xl uppercase'>Business bootcamp alumni</p>
               </div>
             </div>
         </div>
