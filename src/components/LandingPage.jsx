@@ -2,6 +2,7 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 
 function LandingPage() {
+
   return (
     <div className='w-full h-screen bg-zinc-900 pt-2'>
       <div className='textstructure mt-40 px-20'>
@@ -13,6 +14,19 @@ function LandingPage() {
           </div>
         </div>
         })}
+       </div>
+       <div>
+        <p>
+          <h2>
+            <p>
+              <div>
+                <p>
+                  <div></div>
+                </p>
+              </div>
+            </p>
+          </h2>
+        </p>
        </div>
        <div className='border-t-[1px] mt-36 flex justify-between py-4 px-10 text-sm'>
         {["For public and private companies","From the first pitch to IPO"].map((items,key)=><p key={key}>{items}</p>)}
