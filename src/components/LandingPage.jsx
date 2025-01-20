@@ -1,15 +1,15 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 
 function LandingPage() {
-
   return (
     <div className='w-full h-screen bg-zinc-900 pt-2'>
       <div className='textstructure mt-40 px-20'>
         {["We Create","Eye-opening","presentations"].map((item,key)=>{
           return <div className='masker'>
             <div className='w-fit flex'>
-            {key === 1 && (<div className='w-[9vw] rounded mx-2 h-[5vw] bg-red-700 relative'></div>)}
+            {key === 1 && (<motion.div animate={{width:"100px"}} transition={{ease:"linear", repeat:Infinity , duration : 5}} className='w-[1px] rounded mx-2 h-[5vw] bg-green-700 relative'></motion.div>)}
           <h1 key={key} className="uppercase leading-[4.7vw] tracking-tight text-7xl font-['Founders_Grotesk'] font-semibold">{item}</h1>
           </div>
         </div>
