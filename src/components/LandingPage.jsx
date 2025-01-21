@@ -9,7 +9,7 @@ function LandingPage() {
         {["We Create","Eye-opening","presentations"].map((item,key)=>{
           return <div className='masker'>
             <div className='w-fit flex'>
-            {key === 1 && (<motion.div animate={{width:"100px"}} transition={{ease:"linear", repeat:Infinity , duration : 5}} className='w-[1px] rounded mx-2 h-[5vw] bg-green-700 relative'></motion.div>)}
+            {key === 1 && (<motion.img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSKKrmPasXgrCYuSHV3EsMZBrdMHNN6BgvSw&s"  animate={{width:"8vw"}} transition={{ease:[0.45, 0, 0.55, 1] ,delay:.4 , duration : 0.9}} className='w-[0px] rounded mx-2 h-[5vw] bg-green-700 relative'></motion.img>)}
           <h1 key={key} className="uppercase leading-[4.7vw] tracking-tight text-7xl font-['Founders_Grotesk'] font-semibold">{item}</h1>
           </div>
         </div>
